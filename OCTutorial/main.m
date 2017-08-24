@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc,char *args[]) {
+    @autoreleasepool {
+        NSLog(@"hello oc");
+    }
     return 0;
 }
